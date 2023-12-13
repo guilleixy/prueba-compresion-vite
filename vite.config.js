@@ -14,6 +14,7 @@ export default defineConfig({
           threshold: 10240, // Archivos mayores a 10 KB serán comprimidos
           algorithm: 'gzip',
           ext: '.gz',
+          rename: true,
         }),
       ],
     },
